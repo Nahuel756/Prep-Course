@@ -1,17 +1,18 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
+const { stringify } = require("git-url-parse");
+
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = "Esto es un sting" ;
+const nuevaString = new string("hola a todos");
 
 // Crea una variable numérica, puede ser cualquier número:
-const nuevoNum
-var = nombre 'leonidas'
-var = apellido 'godoy' ;
+const n1 = new number(87);
 
 // Crea una variable booleana:
 const nuevoBool = 
-var nomegustajavascript = false 
-var megusta java = true ;
+
+var nomegustajava = false;
+var megustajava = true;
 
 // Resuelve el siguiente problema matemático:
 const nuevaResta = 
@@ -41,32 +42,37 @@ function suma(x, y) {
   // "x" e "y" son números
   // Suma "x" e "y" juntos y devuelve el valor
   // Tu código:
-  
+  var a = 45 + 87; // 132
 }
 
 function resta(x, y) {
   // Resta "y" de "x" y devuelve el valor
   // Tu código:
-  
+  var a = 87 - 45; // 42
 }
 
 function multiplica(x, y) {
   // Multiplica "x" por "y" y devuelve el valor
   // Tu código:
-  
+  var a = 8 * 8; // 64
 }
 
 function divide(x, y) {
   // Divide "x" entre "y" y devuelve el valor
   // Tu código:
-  
+  var a = 17 / 8; // 2.125
 }
 
 function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  
+  45 > 9;
+  764 === 764;
+  true
+  45 < 99;
+  34 === 22; 
+  false
 }
 
 function tienenMismaLongitud(str1, str2) {
